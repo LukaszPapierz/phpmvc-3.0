@@ -6,4 +6,4 @@
  * Time: 16:40
  */
 
-echo "dupaaaaaaaaaaaaaaa";
+echo "dupa";
