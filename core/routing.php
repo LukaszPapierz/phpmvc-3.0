@@ -10,5 +10,5 @@ Flight::route('/index.php', function(){
 });
 
 Flight::route('/', function(){
-   new Controller_Testrr();
+   new Controller_Test();
 });
