@@ -6,9 +6,9 @@
  */
 
 Flight::route('/index.php', function(){
-    echo 'dupaindex';
+    Flight::redirect('/');
 });
 
 Flight::route('/', function(){
-    echo 'dupa/';
+   new Controller_Testrr();
 });
