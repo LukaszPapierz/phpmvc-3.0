@@ -11,6 +11,6 @@ class Controller_Test
     {
         new Model_Test();
         include "test.html";
-        echo "Controller_Test";
+        echo "Controller_Test-kodingtest";
     }
 }
