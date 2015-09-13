@@ -9,6 +9,7 @@ set_include_path(get_include_path() . PATH_SEPARATOR . 'www');
 set_include_path(get_include_path() . PATH_SEPARATOR . 'application');
 set_include_path(get_include_path() . PATH_SEPARATOR . 'exceptions');
 set_include_path(get_include_path() . PATH_SEPARATOR . 'core');
+set_include_path(get_include_path() . PATH_SEPARATOR . 'config');
 
 //testowo
 set_include_path(get_include_path() . PATH_SEPARATOR . 'application/view');
@@ -23,5 +24,7 @@ function phpmvc_autoloader($class) {
         }
         $inlucePath .= $className;
         $inlucePath .= ".php";
+
         include_once $inlucePath;
+
 }

@@ -11,6 +11,7 @@ class Controller_Test
     {
         new Model_Test();
         include "test.html";
-        echo "Controller_Test-kodingtest";
+        $tmp = Flight::get('test');
+        echo "Controller_Test" . $tmp;
     }
 }

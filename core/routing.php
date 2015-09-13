@@ -9,6 +9,10 @@ Flight::route('/index.php', function(){
     Flight::redirect('/');
 });
 
-Flight::route('/', function(){
-   new Controller_Test();
+Flight::route('/', function () {
+    new Controller_Test();
+});
+
+Flight::route('/@name/@id', function($name, $id){
+    echo "hello, $name ($id)!";
 });
